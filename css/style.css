@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.all .header img {
+    width: 85px;
+    height: 65px;
+}
+
+.all .header {
+    display: flex;
+    height: 65px;
+    background-color: bisque;
+}
+
+.all .header ul {
+    display: flex;
+    padding: 20px 30px;
+    list-style-type: none;
+}
+
+.all .header ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    padding: 50px 50px;
+}
+
+.all .header ul .cart {
+    width: 50px;
+    height: 35px;
+}
+
+.all .header .search input {
+    width: 160px;
+    height: 30px;
+    border: none;
+}
+
+.all .header .search button {
+    float: right;
+    background: orangered;
+    width: 40px;
+    height: 30px;
+    font-size: 19px;
+    color: white;
+    border: none;
+}
+
+.all .banner img {
+    width: 100%;
+}
+
+/* COSMETIC GỢI Ý CHO BẠN */
+
+.all .section-1 {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.all .section-1 .layout1 {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.all .section-1 .layout1 .sp1:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.all .section-1 .layout1 .sp1 {
+    width: 300px;
+    height: 320px;
+    border: 1px solid rgb(207, 207, 207);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.all .section-1 .layout1 .sp1 img {
+    width: 200px;
+    height: 200px;
+}
+
+#vnd {
+    text-decoration: underline;
+}
+
+#price {
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.all .section-1 .layout1 .sp1 p {
+    font-size: 17px;
+}
+
+.all .section-1 .layout1 .sp1 input {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.all .section-1 .layout1 .sp1 input:hover {
+    background-color: black;
+    color: white;
+}
+
+/* TRENDING */
+
+.all .section-2 {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.all .section-2 .layout2 {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.all .section-2 .layout2 .sp2 {
+    width: 300px;
+    height: 320px;
+    border: 1px solid rgb(207, 207, 207);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.all .section-2 .layout2 .sp2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.all .section-2 .layout2 .sp2 p {
+    font-size: 17px;
+}
+
+.all .section-2 .layout2 .sp2 input {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.all .section-2 .layout2 .sp2 input:hover {
+    background-color: black;
+    color: white;
+}
+
+.all .section-2 .layout2 .sp2:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* SẢN PHẨM MỚI VỀ */
+
+.all .section-3 {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.all .section-3 .layout3 {
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.all .section-3 .layout3 .sp3 {
+    width: 300px;
+    height: 320px;
+    border: 1px solid rgb(207, 207, 207);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.all .section-3 .layout3 .sp3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.all .section-3 .layout3 .sp3 p {
+    font-size: 17px;
+}
+
+.all .section-3 .layout3 .sp3 input {
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.all .section-3 .layout3 .sp3 input:hover {
+    background-color: black;
+    color: white;
+}
+
+.all .section-3 .layout3 .sp3:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.all .footer .face {
+    display: flex;
+    gap: 10px;
+    margin-left: 5%;
+}
+
+.all .footer .face img {
+    width: 30px;
+    height: 30px;
+}
+
+.all .footer {
+    font-family: cursive;
+    background-color: bisque;
+    height: 350px;
+    display: flex;
+    margin-top: 60px;
+}
+
+.all .footer h1 {
+    margin-left: 5%;
+}
+
+.all .footer .you .about {
+    margin-left: 170px;
+}
+
+.all .footer .for {
+    margin-top: 10px;
+}
+
+.all .footer .about {
+    margin-top: 10px;
+}
+
+/* danhmuc */
